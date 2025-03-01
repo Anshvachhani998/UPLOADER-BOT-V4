@@ -22,7 +22,7 @@ class Config(object):
     FREE_USER_MAX_FILE_SIZE = 2194304000
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
-    HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
+    HTTP_PROXY = os.environ.get("HTTP_PROXY", "219.65.73.81:80")
     
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
