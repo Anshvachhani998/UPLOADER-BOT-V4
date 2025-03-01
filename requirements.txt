@@ -19,7 +19,7 @@ ffmpeg-python
 ffmpeg
 aiofiles
 pyromod
-yt-dlp
+yt-dlp==2025.2.19
 lk21
 pytube
 flask
